@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/page_home"
+            android:icon="@drawable/add"
+            android:title="首页" />
+        <item
+            android:id="@+id/page_psychology"
+            android:icon="@drawable/add"
+            android:title="日常心理学" />
+        <item
+            android:id="@+id/page_recommend"
+            android:icon="@drawable/add"
+            android:title="用户推荐日报"/>
+        <item
+            android:id="@+id/page_movie"
+            android:icon="@drawable/add"
+            android:title="电影日报"/>
+        <item
+            android:id="@+id/page_boring"
+            android:icon="@drawable/add"
+            android:title="不许无聊"/>
+        <item
+            android:id="@+id/page_design"
+            android:icon="@drawable/add"
+            android:title="设计日报"/>
+        <item
+            android:id="@+id/pager_compony"
+            android:icon="@drawable/add"
+            android:title="大公司日报"/>
+        <item
+            android:id="@+id/page_finance"
+            android:icon="@drawable/add"
+            android:title="财经日报"/>
+        <item
+            android:id="@+id/page_internetSafe"
+            android:icon="@drawable/add"
+            android:title="互联网安全"/>
+
+        <item
+            android:id="@+id/page_game"
+            android:icon="@drawable/add"
+            android:title="开始游戏" />
+        <item
+            android:id="@+id/page_music"
+            android:icon="@drawable/add"
+            android:title="音乐日报" />
+        <item
+            android:id="@+id/page_comic"
+            android:icon="@drawable/add"
+            android:title="动漫日报"/>
+        <item
+            android:id="@+id/page_sport"
+            android:icon="@drawable/add"
+            android:title="体育日报"/>
+    </group>
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>
